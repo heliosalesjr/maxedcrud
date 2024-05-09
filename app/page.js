@@ -20,8 +20,8 @@ export default function Home() {
           <h1 className="p-2 text-4xl font-black bg-gradient-to-br from-blue-500 via-purple-600 to-violet-500 text-transparent bg-clip-text">NextLevel Food for NextLevel Foodies</h1>
           <p className="text-xl p-4">Taste & share food from all over the world.</p>
           <div className="text-lg flex gap-4">
-            <Link href="/community" className="px-4 py-2 rounded-lg bg-gradient-to-r from-purple-500 to-emerald-500 hover:from-purple-600 hover:to-emerald-600 font-semibold">Join the Community</Link>
-            <Link href="/meals" className="px-4 py-2 rounded-lg bg-transparent border border-purple-500 hover:border-emerald-600 text-white text-md">Explore Meals</Link>
+            <Link href="/community" className="px-4 py-2 rounded-lg bg-transparent border border-purple-500 hover:border-emerald-600 text-white text-md">Join the Community</Link>
+            <Link href="/meals" className="px-4 py-2 rounded-lg bg-gradient-to-r from-purple-500 to-emerald-500 hover:from-purple-600 hover:to-emerald-600 font-semibold">Explore Meals</Link>
           </div>
         </div>
       </header>
